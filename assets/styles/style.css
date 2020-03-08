@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: green;
+}
+
+.btn-container {
+  width: 6.25rem;
+  margin: 25rem auto 6.25rem auto;
+}
+
+.change-bg-color {
+  width: 100%;
+  padding: 0.625rem;
+  background-color: darkgray;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+.change-bg-color:hover {
+  background-color: brown;
+  border: 1px solid brown;
+  color: white;
+}
